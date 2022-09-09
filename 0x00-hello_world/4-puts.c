@@ -5,10 +5,10 @@
  *   *
  *    * Return: Always 0 (Success)
  *     * print function "puts" not "printsf"
- *      */
+ **/
 int main(void)
 {
-	    puts("Programming is like building a multilingual puzzle \n");
+	    puts("\"Programming is like building a multilingual puzzle");
 	        return (0);
 }
 
