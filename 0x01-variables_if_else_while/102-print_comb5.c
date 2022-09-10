@@ -1,43 +1,42 @@
 #include <stdio.h>
 
 /**
- *  *main - print a num pair from 00-99 but no repeats (00 01, 00 02, 00 03,...)
- *   *Return: Always 0 (Success)
- **/
+ *  * main - program that prints all possible combinations of
+ *   * two two-digit
+ *    * The numbers should range from 0 to 99
+ *     * Numbers must be separated by ,followed by a space
+ *      * All numbers should be printed with two digits. 1 should be printed as 01
+ *       * Return: 0
+ *        */
 
 int main(void)
 {
-	int tens;
-	int ones;
-	int t;
-	int o;
+	int n1 = 48;
+	int a = 0;
+	int b;
+	int com = 44;
 
-	for (tens = '0'; tens <= '9'; tens++) /*print first two digit combo*/
+	while (a <= 99)
 	{
-		for (ones = '0'; ones <= '9'; ones++)
+		b = a + 1;
+		while (b <= 99)
 		{
-			for (t = tens; t <= '9'; t++) /*print second of pair*/
-			{
-				for (o = ones + 1; o <= '9'; o++)
-				{
-					putchar(tens);
-					putchar(ones);
-					putchar(' ');
-					putchar(t);
-					putchar(o);
+			putchar((a / 10) + n1);
+			putchar((a % 10) + n1);
+			putchar(32);
+			putchar((b / 10) + n1);
+			putchar((b % 10) + n1);
 
-					if (!((tens == '9' && ones == '8') &&
-								(t == '9' && o == '9')))
-					{
-						putchar(',');
-						putchar(' ');
-					}
-				}
-				o = '0';
+			if (a != 98 || b != 99)
+			{
+				putchar(com);
+				putchar(32);
 			}
+			b += 1;
 		}
+		a += 1;
 	}
 	putchar('\n');
-
 	return (0);
 }
+
