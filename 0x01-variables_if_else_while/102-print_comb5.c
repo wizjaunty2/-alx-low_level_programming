@@ -7,7 +7,7 @@
  *     * Numbers must be separated by ,followed by a space
  *      * All numbers should be printed with two digits. 1 should be printed as 01
  *       * Return: 0
- *        */
+ **/
 
 int main(void)
 {
@@ -26,7 +26,6 @@ int main(void)
 			putchar(32);
 			putchar((b / 10) + n1);
 			putchar((b % 10) + n1);
-
 			if (a != 98 || b != 99)
 			{
 				putchar(com);
