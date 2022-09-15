@@ -1,4 +1,5 @@
-
+#ifndef MAIN_H
+#define MAIN_H
 /**
  * _putchar - puts character to standard output
  * @c: character to put to standard output
@@ -91,4 +92,4 @@ void print_triangle(int size);
 
 void print_number(int n);
 
-
+#endif
