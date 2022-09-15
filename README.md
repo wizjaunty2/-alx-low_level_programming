@@ -1,1 +1,1 @@
-MY C PROGRAMMING JORNEY
+Solutions to tasks on functions and nested loops
