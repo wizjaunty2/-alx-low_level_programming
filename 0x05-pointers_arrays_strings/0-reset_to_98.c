@@ -1,10 +1,10 @@
 #include <stdio.h>
 
-/* main-check the code
- * return 0 
- **/
-
-void reset_to_98(int* n)
+/* 
+*main-check the code
+* return 0 
+*/
+void reset_to_98(int *n)
 {
-*n=98;
+  *n = 98;
 }
