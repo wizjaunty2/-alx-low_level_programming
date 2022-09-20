@@ -3,7 +3,8 @@
 /**
 * main - check the code
 * Return: Always 0.
-* 1-swap_int - swaps the values of two integers.
+* @a: pointer to int *a
+* @b: pointer to int *b
 */
 
 void swap_int(int *a, int *b)
