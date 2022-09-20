@@ -1,1 +1,1 @@
-Solutions to projects on pointers, arrays & strings
+Pointers and Array ALX
