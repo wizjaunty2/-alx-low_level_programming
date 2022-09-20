@@ -3,7 +3,7 @@
 /**
 * main - check the code
 * Return: Always 0.
-* swap_int - swaps the values of two integers.
+* 1-swap_int - swaps the values of two integers.
 */
 
 void swap_int(int *a, int *b)
