@@ -1,4 +1,4 @@
-#include <stdio.h>
+De#include <stdio.h>
 
 /**
  * _strlen - returns the length of a string
@@ -14,5 +14,5 @@ while (*s != '\0')
 count++;
 s++;
 }
-return count;
+return (count);
 }
