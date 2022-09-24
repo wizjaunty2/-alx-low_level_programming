@@ -10,9 +10,9 @@ void print_rev(char *s)
 
 	i = 0;
 
-	while (s[a] != '\0')
+	while (s[i] != '\0')
 	{
-		a++;
+		i++;
 	}
 
 	len = i;
